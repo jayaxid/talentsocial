@@ -17,13 +17,4 @@ class WebViewController {
         log.info("Showing index page");
         return "index";
     }
-
-    @RequestMapping("/account")
-    public String account() {
-
-        log.info("Showing account page");
-        return "account/index";
-    }
-
-
 }
